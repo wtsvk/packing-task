@@ -4,24 +4,13 @@ namespace App;
 
 use App\Api\Parser\ProductCollectionParser;
 use App\Api\Request\InvalidRequestException;
-use App\Api\Request\RequestParser;
 use App\Packaging\PackagingFinder;
-use App\Packaging\PackagingStorage;
-use App\Packaging\Provider\ApiPackingProvider;
-use App\Packaging\Provider\DatabaseProvider;
-use App\Packaging\Provider\FallbackProvider;
-use Doctrine\ORM\EntityManager;
 use Doctrine\DBAL\Exception as DoctrineException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Swaggest\JsonSchema\Schema;
-use Symfony\Component\PropertyInfo\Extractor\PhpDocExtractor;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
-use Symfony\Component\Serializer\Normalizer\ArrayDenormalizer;
-use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
-use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\SerializerInterface;
 
 class Application
