@@ -1,0 +1,10 @@
+{
+    "products": [
+      {
+        "width": 10,
+        "height": 20,
+        "length": 50,
+        "weight": 4.88
+      }
+    ]
+  }

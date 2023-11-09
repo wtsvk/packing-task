@@ -1,0 +1,5 @@
+/.env
+/.idea
+/.phpcs-cache
+/composer.lock
+/vendor
