@@ -8,7 +8,6 @@ use App\Entity\Packaging;
 use App\Entity\ProductCollectionPackaging;
 use App\Packaging\PackagingStorage;
 use App\Product\ProductCollection;
-use Doctrine\ORM\EntityManager;
 
 class DatabaseProvider implements ProviderInterface
 {
